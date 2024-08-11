@@ -1,0 +1,16 @@
+CODE,SHORT DESCRIPTION (VALID ICD-10 FY2024),LONG DESCRIPTION (VALID ICD-10 FY2024),NF EXCL
+A0101,Typhoid meningitis,Typhoid meningitis,
+A0102,Typhoid fever with heart involvement,Typhoid fever with heart involvement,
+A070,Balantidiasis,Balantidiasis,
+A071,Giardiasis [lambliasis],Giardiasis [lambliasis],
+C8100,"Nodular lymphocyte predominant Hodgkin lymphoma, unsp site","Nodular lymphocyte predominant Hodgkin lymphoma, unspecified site",
+C8101,"Nodlr lymphocy predom Hdgkn lymph, nodes of head, face, & nk","Nodular lymphocyte predominant Hodgkin lymphoma, lymph nodes of head, face, and neck",
+C8102,"Nodular lymphocy predom Hodgkin lymphoma, intrathorac nodes","Nodular lymphocyte predominant Hodgkin lymphoma, intrathoracic lymph nodes",
+H02879,"Vascular anomalies of unspecified eye, unspecified eyelid","Vascular anomalies of unspecified eye, unspecified eyelid",
+"H02881
+",Meibomian gland dysfunction right upper eyelid,Meibomian gland dysfunction right upper eyelid,
+"H02882
+",Meibomian gland dysfunction right lower eyelid,Meibomian gland dysfunction right lower eyelid,
+Y93E8,"Activity, other personal hygiene","Activity, other personal hygiene",Y
+Y93E9,"Activity, other interior property and clothing maintenance","Activity, other interior property and clothing maintenance",Y
+Y93F1,"Activity, caregiving, bathing","Activity, caregiving, bathing",Y
