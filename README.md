@@ -36,6 +36,18 @@ The data will contain the following issues that will need to be processed:
 ABC123, "Testing, one", "Testing, two",
 ```
 
+- Certain records will have a "[]" character pair surrounding a specific word
+
+```bash
+B0821,Exanthema subitum [sixth disease] due to human herpesvirus 6,Exanthema subitum [sixth disease] due to human herpesvirus 6,
+```
+
+- Certain records will have a "[]" character pair AND a `'` character:
+
+```bash
+A751,Recrudescent typhus [Brill's disease],Recrudescent typhus [Brill's disease],
+```
+
 - Certain records will have a comma separated value within double-quotes that needs to be replaced AND have "[]" characters
 
 ```bash
@@ -47,6 +59,28 @@ DEFG456, "[EXCLUDE] Testing, three", "[EXCLUDE] Testing, four",
 ```bash
 "H02881
 ",Meibomian gland dysfunction right upper eyelid,Meibomian gland dysfunction right upper eyelid,
+```
+
+## The Goal
+
+Take into consideration all of the edge-cases listed above and make the sample data fit into the following columns:
+
+```
+CODE,SHORT DESCRIPTION (VALID ICD-10 FY2024),LONG DESCRIPTION (VALID ICD-10 FY2024),NF EXCL
+```
+
+Where `NF EXCL` may or may not be present in the data and could be a blank column.
+
+Example:
+
+```bash
+ABC123, "Testing, one", "Testing, two",
+```
+
+should be transformed into:
+
+```bash
+ABC123, "Testing - one", "Testing - two",
 ```
 
 ## Bash Script implementation (in-progress)
