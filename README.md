@@ -11,7 +11,7 @@ One list of ICD-10 Codes is available here in only XLSX format: https://www.cms.
 
 ## Motivation
 
-The ICD-10 codes are a mess and the `.xlsx` format isn't useful for anyone beyond those that live in an EXCEL compataible program.
+The ICD-10 codes are a mess and the `.xlsx` format isn't useful for anyone beyond those that live in an EXCEL compatible program.
 
 The purpose of this repository are 2 fold:
 
